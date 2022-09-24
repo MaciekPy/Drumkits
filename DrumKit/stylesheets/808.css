@@ -1,0 +1,24 @@
+body {
+    /* background-color: pink; */
+    background-image: url("../assets/circuits.jpg");
+}
+
+.key {
+    background-color: rgb(173, 117, 203);
+}
+
+.nav{
+    background-color: rgb(173, 117, 203);
+}
+
+h1 {
+    color:rgb(173, 117, 203);
+    font-size: 60px;
+}
+
+.playing {
+    outline-color: rgb(123, 31, 172);
+    transform: scale(1.25);
+    box-shadow: 0 0 15px rgb(123, 31, 172);
+    border-color: rgb(123, 31, 172);
+}

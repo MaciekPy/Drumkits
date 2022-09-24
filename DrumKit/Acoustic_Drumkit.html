@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrumKit</title>
+    <link rel="stylesheet" href="./stylesheets/index.css">
+    <link rel="stylesheet" href="./stylesheets/acoustic.css">
+    <link rel="stylesheet" href="./stylesheets/transition.css">
+</head>
+<body>
+
+    <div class="transition transition-3 is-active"></div>
+
+    <div class="nav">
+        <a href="./808_Drumkit.html">808</a>
+        <a href="./Metal_Drumkit.html">Metal</a>
+        <a href="./Acoustic_Drumkit.html">Acoustic</a>
+    </div>
+
+
+
+    <h1>Acoustic Drumkit</h1>
+
+    <div class="keys">
+        <div data-key= "65" class="key">
+            <kbd>A<br></kbd>
+            <span class="sound">Kick</span>
+        </div>
+        <div data-key= "83" class="key">
+            <kbd>S<br></kbd>
+            <span class="sound">Snare</span>
+        </div>
+        <div data-key= "68" class="key">
+            <kbd>D<br></kbd>
+            <span class="sound">Clap</span>
+        </div>
+        <div data-key= "74" class="key">
+            <kbd>J<br></kbd>
+            <span class="sound">Hihat</span>
+        </div>
+        <div data-key= "75" class="key">
+            <kbd>K<br></kbd>
+            <span class="sound">Open Hihat</span>
+        </div>
+        <div data-key= "76" class="key">
+            <kbd>L<br></kbd>
+            <span class="sound">Cowbell</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="sounds/Acoustic/Kick.wav"></audio>
+    <audio data-key="83" src="sounds/Acoustic/Snare.wav"></audio>
+    <audio data-key="68" src="sounds/Acoustic/Clap.wav"></audio>
+    <audio data-key="74" src="sounds/Acoustic/Hihat.wav"></audio>
+    <audio data-key="75" src="sounds/Acoustic/OHihat.wav"></audio>
+    <audio data-key="76" src="sounds/Acoustic/Cowbell.wav"></audio>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

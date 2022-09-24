@@ -1,0 +1,28 @@
+body {
+    /* background-color: rgb(193, 87, 87); */
+    background-image: url("../assets/fire.jpg");
+}
+
+.key {
+    background-color: rgb(150, 43, 43);
+}
+
+h1 {
+    color:rgb(150, 43, 43);
+    font-size: 60px;
+}
+
+.nav{
+    background-color: rgb(150, 43, 43);
+}
+
+.nav a:hover {
+    color: rgb(255, 47, 0);
+}
+
+.playing {
+    outline-color: rgb(255, 47, 0);
+    transform: scale(1.25);
+    box-shadow: 0 0 15px rgb(255, 47, 0);
+    border-color: rgb(255, 47, 0);
+}
